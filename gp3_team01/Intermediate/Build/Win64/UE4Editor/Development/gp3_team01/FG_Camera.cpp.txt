@@ -1,0 +1,11 @@
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\Definitions.gp3_team01.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Source\gp3_team01\Public\Cameras/FG_Camera.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Inc\gp3_team01\FG_Camera.generated.h
+C:\XProgramming\UnrealEngine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\XProgramming\UnrealEngine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Source\gp3_team01\Public\Cameras/FG_DA_CameraStats.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Inc\gp3_team01\FG_DA_CameraStats.generated.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Source\gp3_team01\Public\Player/FG_DA_InputStats.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Inc\gp3_team01\FG_DA_InputStats.generated.h
+C:\XProgramming\UnrealEngine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\XProgramming\UnrealEngine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h

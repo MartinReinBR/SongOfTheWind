@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-gp3_team01-1334.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\gp3_team01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\FG_YakAICharacter.cpp.obj"
+"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\FG_YakAIController.cpp.obj"
+"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\Module.gp3_team01.cpp.obj"
+"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\Module.gp3_team01.gen.cpp.obj"
+"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\Default.rc2.res"
+/OUT:"C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\UE4Editor-gp3_team01-1334.lib"

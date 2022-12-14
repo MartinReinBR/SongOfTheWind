@@ -1,0 +1,5 @@
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Development\gp3_team01\Definitions.gp3_team01.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Source\gp3_team01\Public\FG_GameInstance.h
+C:\XSchoolThingsXOneDrive\P4Workspace\Gp3_Team01_Martin\gp3_team01\Intermediate\Build\Win64\UE4Editor\Inc\gp3_team01\FG_GameInstance.generated.h
+C:\XProgramming\UnrealEngine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\XProgramming\UnrealEngine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h

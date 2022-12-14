@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\gp3_team01.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A96D77AF-E0E3-4D85-B291-0AE540ABDC5D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\gp3_team01.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\gp3_team01Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5FF41E1B-4231-4A81-8698-D67178F118BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\gp3_team01">
+      <UniqueIdentifier>{8F4937DE-A890-40B3-9756-1D4D0F45DD66}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\gp3_team01\gp3_team01.Build.cs">
+      <Filter>Source\gp3_team01</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\gp3_team01\gp3_team01.cpp">
+      <Filter>Source\gp3_team01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\gp3_team01\gp3_team01.h">
+      <Filter>Source\gp3_team01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\gp3_team01\gp3_team01GameModeBase.cpp">
+      <Filter>Source\gp3_team01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\gp3_team01\gp3_team01GameModeBase.h">
+      <Filter>Source\gp3_team01</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Private">
+      <UniqueIdentifier>{86A7BA69-AE8A-49D1-971B-A3EE4507C0F5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\DA_FG_FloatData.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\FG_BroadcastTemplate.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\FG_DA_SettingsData.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\FG_GameInstance.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\FG_SettingsWidget.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\FG_Touching.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Instrument.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\TemplateHelper.cpp">
+      <Filter>Source\gp3_team01\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Audio">
+      <UniqueIdentifier>{84B73375-92B4-4827-B8E5-570B57608341}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Audio\DA_FG_NoteSheet.cpp">
+      <Filter>Source\gp3_team01\Private\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Audio\FG_DA_Instrument.cpp">
+      <Filter>Source\gp3_team01\Private\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Audio\FG_InstrumentComponent.cpp">
+      <Filter>Source\gp3_team01\Private\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Audio\InstrumentChord.cpp">
+      <Filter>Source\gp3_team01\Private\Audio</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Cameras">
+      <UniqueIdentifier>{F1794979-8990-433A-BA2D-B331F141762F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Cameras\FG_Camera.cpp">
+      <Filter>Source\gp3_team01\Private\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Cameras\FG_DA_CameraStats.cpp">
+      <Filter>Source\gp3_team01\Private\Cameras</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\GameModes">
+      <UniqueIdentifier>{426E3022-1839-4073-9B14-A0AF1F3C8F2D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\GameModes\FG_GameMode.cpp">
+      <Filter>Source\gp3_team01\Private\GameModes</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\LevelElements">
+      <UniqueIdentifier>{A2050D59-149F-4167-A9E9-A1D22BCE8605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\gp3_team01\Private\LevelElements\BouncePad">
+      <UniqueIdentifier>{A122EB0C-312E-41BC-942B-B61D1872460D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\BouncePad\FG_BouncePad.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\BouncePad</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\LevelElements\Collectible">
+      <UniqueIdentifier>{666EA656-458A-41A4-BEE4-A8B5FEFD5CE5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Collectible\DA_FG_IntegerData.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Collectible</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Collectible\FG_CollectibleComponent.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Collectible</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Collectible\FG_CollectibleUnlocker.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Collectible</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Collectible\FG_CollectorComponent.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Collectible</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\LevelElements\MovingPlatform">
+      <UniqueIdentifier>{9FC6F348-9A2C-4F9A-8579-928E5FA741BD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\MovingPlatform\FG_MovingPlatform.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\MovingPlatform</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\LevelElements\Winddraft">
+      <UniqueIdentifier>{2D58A32E-9844-474A-9954-FA1AC9D5E9EC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Winddraft\FG_Winddraft.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Winddraft</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\LevelElements\Yak">
+      <UniqueIdentifier>{C84BD843-6FFC-4F28-BD0C-08DFAEDCE373}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Yak\ABP_Yak.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Yak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Yak\FG_YakAICharacter.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Yak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\LevelElements\Yak\FG_YakAIController.cpp">
+      <Filter>Source\gp3_team01\Private\LevelElements\Yak</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player">
+      <UniqueIdentifier>{2982E402-CF56-4ADF-B37B-A2E2A7D1AB92}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\ABP_Glider.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\ABP_Player.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_HoverStats.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_InputStats.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_JumpStats.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_LedgevaultStats.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_MoveStats.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_PlayerStateClasses.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_DA_PlayerStats.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_PlayerCharacter.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_SFSM.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\FG_State.cpp">
+      <Filter>Source\gp3_team01\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\Gliding">
+      <UniqueIdentifier>{BA30E359-EC81-4716-A593-81558E990E1C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\Gliding\FG_GliderComponent.cpp">
+      <Filter>Source\gp3_team01\Private\Player\Gliding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\Gliding\FG_GliderResponse.cpp">
+      <Filter>Source\gp3_team01\Private\Player\Gliding</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\Input">
+      <UniqueIdentifier>{81127132-876A-48DB-80BD-4CFE6335616C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\Input\FG_InputWriteComponent.cpp">
+      <Filter>Source\gp3_team01\Private\Player\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\Movement">
+      <UniqueIdentifier>{B9FE108A-95EF-4301-90CB-18FA11378A6F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\Movement\FG_LocomotionComponent.cpp">
+      <Filter>Source\gp3_team01\Private\Player\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\Movement\FG_LocomotionResponse.cpp">
+      <Filter>Source\gp3_team01\Private\Player\Movement</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\States">
+      <UniqueIdentifier>{C8D1CE00-F129-44AE-944F-114DEB8F1196}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\FG_PlayerState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\States\Core">
+      <UniqueIdentifier>{64E18488-36FA-49AE-A324-B50051FFD5F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Core\FG_GlidingPlayerState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Core\FG_LocomotionPlayerState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Core</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\States\Gliding">
+      <UniqueIdentifier>{F0E7506B-27FA-4AD8-B569-8FFD459B40CB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Gliding\FG_GlidingIdleSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Gliding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Gliding\FG_GlidingSteeringSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Gliding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Gliding\FG_GlidingSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Gliding</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Private\Player\States\Locomotion">
+      <UniqueIdentifier>{776B58B5-7AA0-4316-AB5B-12B7C86B0529}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionAirborneSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionAirJumpSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionIdleSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionJumpingSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionLedgevaultSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionMovingSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gp3_team01\Private\Player\States\Locomotion\FG_LocomotionWallclimbSubState.cpp">
+      <Filter>Source\gp3_team01\Private\Player\States\Locomotion</Filter>
+    </ClCompile>
+    <Filter Include="Source\gp3_team01\Public">
+      <UniqueIdentifier>{03AFBC61-7699-4341-9ED9-A75B326E71CE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\DA_FG_FloatData.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\FG_BroadcastTemplate.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\FG_DA_SettingsData.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\FG_GameInstance.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\FG_SettingsWidget.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\FG_Touching.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Instrument.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\TemplateHelper.h">
+      <Filter>Source\gp3_team01\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Audio">
+      <UniqueIdentifier>{4EA66BDC-D3D8-4BF3-A2EF-58B39D21745C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Audio\DA_FG_NoteSheet.h">
+      <Filter>Source\gp3_team01\Public\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Audio\FG_DA_Instrument.h">
+      <Filter>Source\gp3_team01\Public\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Audio\FG_InstrumentComponent.h">
+      <Filter>Source\gp3_team01\Public\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Audio\InstrumentChord.h">
+      <Filter>Source\gp3_team01\Public\Audio</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Cameras">
+      <UniqueIdentifier>{1FB84310-5EAE-4880-B027-B7B19054F18F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Cameras\FG_Camera.h">
+      <Filter>Source\gp3_team01\Public\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Cameras\FG_DA_CameraStats.h">
+      <Filter>Source\gp3_team01\Public\Cameras</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\GameModes">
+      <UniqueIdentifier>{90D0C329-99C0-477A-A6ED-6059F11235C2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\GameModes\FG_GameMode.h">
+      <Filter>Source\gp3_team01\Public\GameModes</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\LevelElements">
+      <UniqueIdentifier>{D3902F07-9BC8-4EDF-B829-108C90C61439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\gp3_team01\Public\LevelElements\BouncePad">
+      <UniqueIdentifier>{123167AB-1375-4121-A0FB-D1A1E999EFD0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\BouncePad\FG_BouncePad.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\BouncePad</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\LevelElements\Collectible">
+      <UniqueIdentifier>{EA1E82A1-278D-48BA-9C62-96C508DDB9AD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Collectible\DA_FG_IntegerData.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Collectible</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Collectible\FG_CollectibleComponent.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Collectible</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Collectible\FG_CollectibleUnlocker.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Collectible</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Collectible\FG_CollectorComponent.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Collectible</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\LevelElements\MovingPlatform">
+      <UniqueIdentifier>{417AE7B1-9CA6-48F1-AA7B-0533BDF2A1FE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\MovingPlatform\FG_MovingPlatform.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\MovingPlatform</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\LevelElements\Winddraft">
+      <UniqueIdentifier>{5487E529-147D-4B6C-AF20-7E668077F9FE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Winddraft\FG_Winddraft.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Winddraft</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\LevelElements\Yak">
+      <UniqueIdentifier>{EFFCDB63-4423-4D96-AF7A-B86F75FA88D1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Yak\ABP_Yak.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Yak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Yak\FG_YakAICharacter.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Yak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\LevelElements\Yak\FG_YakAIController.h">
+      <Filter>Source\gp3_team01\Public\LevelElements\Yak</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player">
+      <UniqueIdentifier>{510F3D9C-9525-49B5-9551-CA5BD849A766}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\ABP_Glider.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\ABP_Player.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_HoverStats.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_InputStats.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_JumpStats.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_LedgevaultStats.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_MoveStats.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_PlayerStateClasses.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_DA_PlayerStats.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_PlayerCharacter.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_SFSM.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\FG_State.h">
+      <Filter>Source\gp3_team01\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\Gliding">
+      <UniqueIdentifier>{06D79130-6991-451A-A66C-3628D97746F6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\Gliding\FG_GliderComponent.h">
+      <Filter>Source\gp3_team01\Public\Player\Gliding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\Gliding\FG_GliderResponse.h">
+      <Filter>Source\gp3_team01\Public\Player\Gliding</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\Input">
+      <UniqueIdentifier>{96F5AE1B-2BAB-4508-B036-E796A4B8E8EC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\Input\FG_InputWriteComponent.h">
+      <Filter>Source\gp3_team01\Public\Player\Input</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\Movement">
+      <UniqueIdentifier>{CCA38226-2C67-47A7-BBC6-2B05F366E68C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\Movement\FG_LocomotionComponent.h">
+      <Filter>Source\gp3_team01\Public\Player\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\Movement\FG_LocomotionResponse.h">
+      <Filter>Source\gp3_team01\Public\Player\Movement</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\States">
+      <UniqueIdentifier>{EC1C5E46-F455-4B63-806F-09744CD42E0E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\FG_PlayerState.h">
+      <Filter>Source\gp3_team01\Public\Player\States</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\States\Core">
+      <UniqueIdentifier>{28855080-CF9A-4A3B-B6EC-94F10A2A6022}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Core\FG_GlidingPlayerState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Core\FG_LocomotionPlayerState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Core</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\States\Gliding">
+      <UniqueIdentifier>{43305BC8-3B11-4748-A076-702ECDE45D3C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Gliding\FG_GlidingIdleSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Gliding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Gliding\FG_GlidingSteeringSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Gliding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Gliding\FG_GlidingSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Gliding</Filter>
+    </ClInclude>
+    <Filter Include="Source\gp3_team01\Public\Player\States\Locomotion">
+      <UniqueIdentifier>{53BCD35F-714F-47A7-972B-02F4F6C95A0F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionAirborneSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionAirJumpSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionIdleSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionJumpingSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionLedgevaultSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionMovingSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gp3_team01\Public\Player\States\Locomotion\FG_LocomotionWallclimbSubState.h">
+      <Filter>Source\gp3_team01\Public\Player\States\Locomotion</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

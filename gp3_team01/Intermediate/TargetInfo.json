@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "gp3_team01",
+			"Path": "C:\\XSchoolThingsXOneDrive\\P4Workspace\\Gp3_Team01_Martin\\gp3_team01\\Source\\gp3_team01.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "gp3_team01Editor",
+			"Path": "C:\\XSchoolThingsXOneDrive\\P4Workspace\\Gp3_Team01_Martin\\gp3_team01\\Source\\gp3_team01Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
